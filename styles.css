@@ -39,6 +39,11 @@ p {
     text-align: left;
 }
 
+li {
+    font-size: larger;
+    text-align: left;
+}
+
 .top-menu {
     display: flex;
     justify-content: space-between;
