@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Boka en demo av CRM-systemet.">
+    <title>Boka Demo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Hem</a></li>
+                <li><a href="features.html">Funktioner</a></li>
+                <li><a href="pricing.html">Prissättning</a></li>
+                <li><a href="contact.html">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="demo">
+        <h2>Boka en Demo</h2>
+        <form action="submit_demo.php" method="POST">
+            <label for="name">Namn:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">E-post:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="company">Företag:</label>
+            <input type="text" id="company" name="company" required>
+            <button type="submit">Skicka</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 CRM Systems AB. Alla rättigheter förbehållna.</p>
+    </footer>
+</body>
+</html>
