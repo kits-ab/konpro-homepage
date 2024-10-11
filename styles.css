@@ -57,11 +57,23 @@ nav ul li a:hover {
 }
 
 .hero-image {
-    width: 50%;
-    max-width: 800px;
+    width: 100%;
+    max-width: 80em;
     margin-top: 20px;
 }
 
+.contact-image {
+    width: 100%;
+    max-width: 50em;
+    margin-top: 20px;
+}
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
 .cta-button {
     background-color: #00bcd4; /* Turkos accent */
     color: white;
