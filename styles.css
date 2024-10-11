@@ -19,8 +19,15 @@ header {
     text-align: center;
 }
 
+nav {
+    display: flex;
+    justify-content: center;
+}
+
 nav ul {
     list-style: none;
+    align-self: center;
+    font-size: 2rem;
 }
 
 nav ul li {
@@ -120,4 +127,8 @@ h2 {
 
 div#slogan h1 {
     font-size: 50px;
+}
+
+.logo {
+    width: 100px;
 }
