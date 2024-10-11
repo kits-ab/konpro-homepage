@@ -14,8 +14,7 @@
 }
 
 body {
-    /* background-color: darkslategray; */
-    background-image: white;
+    background-color: darkslategray;
     color: aliceblue;
     font-family: sans-serif;
 }
