@@ -1,38 +1,74 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sv">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="styles.css">
-    <title>Konpro</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Modulärt CRM-system för konsultprofiler och försäljningsmatchning. Boka en demo idag!">
+    <title>CRM för Konsultprofiler - Boka Demo</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Länka till din CSS-fil -->
 </head>
 <body>
-<header>
-    <a href="index.html" class="logo">kon根pro</a>
-    <nav><menu class="top-menu">
-        <li class="top-li">Hem</li>
-        <li class="top-li"><a href="about.html">Om</a></li>
-        <li class="top-li"><a href="history.html">Historia</a></li>
-        <li class="top-li"><a href="walkthrough.html">Genomgång</a></li>
-    </menu></nav>
-</header>
-<article>
-    <h1>Är du trött på</h1>
-    <div class="grid-container">
-        <div class="grid-item">
-            <img class="arg-img" src="01299-2231726234.png" alt="Konsultprofiler">
-        </div>
-        <div class="grid-item">
-            <p class="intro">Ett sammelsurium av dåligt uppdaterade Word-dokument</p>
-        </div>
-        <div class="grid-item">
-            <img class="arg-img" src="01292-3801796243.png" alt="Juniora utvecklare">
-        </div>
-        <div class="grid-item">
-            <p class="intro">Ett svåranvänt, dåligt underhållet internprojekt, som några juniorer snickrade ihop när de var på bänken innan sitt första uppdrag</p>
-        </div>
-    </div>
+    <!-- Header och Navigering -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#features">Funktioner</a></li>
+                <li><a href="#pricing">Prissättning</a></li>
+                <li><a href="#demo">Boka Demo</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
 
+    <!-- Hero Sektion -->
+    <section id="hero">
+        <h1>Effektiv Hantering av Konsultprofiler</h1>
+        <p>CRM-systemet som hjälper ditt säljteam att matcha rätt profiler med rätt uppdrag.</p>
+        <a href="#demo" class="cta-button">Boka en Demo</a>
+    </section>
 
-</article>
+    <!-- Funktioner Sektion -->
+    <section id="features">
+        <h2>Funktioner</h2>
+        <div class="feature-list">
+            <div class="feature">
+                <h3>Modulär Profilhantering</h3>
+                <p>Bygg och anpassa konsultprofiler med ett enkelt, modulärt gränssnitt.</p>
+            </div>
+            <div class="feature">
+                <h3>Matchning mot marknad</h3>
+                <p>Använd kraftfulla verktyg för att matcha profiler mot specifika kundbehov.</p>
+            </div>
+            <div class="feature">
+                <h3>Integrationer</h3>
+                <p>Integrera med andra system som ERP eller projektverktyg för smidiga arbetsflöden.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Prissättning Sektion -->
+    <section id="pricing">
+        <h2>Prissättning</h2>
+        <p>Välj ett prispaket som passar ditt företags behov.</p>
+    </section>
+
+    <!-- Demo Formulär Sektion -->
+    <section id="demo">
+        <h2>Boka en Demo</h2>
+        <form action="submit_demo.php" method="POST">
+            <label for="name">Namn:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">E-post:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="company">Företag:</label>
+            <input type="text" id="company" name="company" required>
+            <button type="submit">Skicka</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 CRM Systems AB. Alla rättigheter förbehållna.</p>
+    </footer>
 </body>
 </html>
